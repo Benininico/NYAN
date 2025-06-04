@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem form</title>
+</head>
+
+<body>
+    <form action="post.php" method="POST">
+
+        <h3 style="color: red;">Envie sua mensagem preenchendo o formulário abaixo</h3>
+
+        <label>Nome:</label><br>
+        <input type="text" placeholder="Digite seu nome" name="nome" required><br><br>
+
+        <label>Idade:</label><br>
+        <input type="number" placeholder="Digite sua idade" name="idade" required><br><br>
+
+        <label>Sexo:</label><br>
+        <input type="radio" name="sexo" value="M">
+        <label>Masculino</label><br>
+
+        <input type="radio" name="sexo" value="f">
+        <label>Feminino</label><br>
+
+        <label>Telefone:</label><br>
+        <input type="text" placeholder="Digite seu telefone" name="telefone" required><br><br>
+
+        <label>E-mail:</label><br>
+        <input type="text" placeholder="Digite seu e-mail" name="email" required><br><br>
+
+        <label>Mensagem:</label><br>
+        <textarea name="Mensagem" placeholder="Mensagem"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
